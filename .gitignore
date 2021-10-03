@@ -1,2 +1,4 @@
+# ignore ALL .jpeg files
 *.jpeg
+# ignore system file as .DS_Store
 .DS_Store
