@@ -13,7 +13,7 @@ ALL_ATTEMPTS = 10
 ATTEMPTS = 10
 CONFIRMATION = None
 random_number = randint(0, 100)
-print(random_number)
+#print(random_number)
 YOUR_CHOICE = 0
 print('Please, enter "YES", if you understood the rule\n'
       'and want to play or "NO", if you do not want to play\n'
