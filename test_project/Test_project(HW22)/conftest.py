@@ -1,12 +1,5 @@
 import pytest
-import iniconfig
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-from webdrivermanager import GeckoDriverManager
-from webdrivermanager import ChromeDriverManager
-from webdrivermanager.chrome import ChromeDriverManager
-from webdrivermanager.gecko import GeckoDriverManager
-from selenium.webdriver.chrome.options import Options
 from configparser import ConfigParser
 
 
