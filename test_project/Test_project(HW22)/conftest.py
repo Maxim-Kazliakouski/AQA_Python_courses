@@ -58,7 +58,7 @@ def browser(request):
             options.add_argument(
                 "user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36")
             options.headless = False
-            browser = webdriver.Chrome('/Volumes/Work/TestProject/tools/chromedriver', options=options)
+            browser = webdriver.Chrome('/Volumes/Work/Python_courses/Project/AQA_Python_courses/test_project/Test_project(HW22)/tools/chromedriver', options=options)
             print('\n\nStart chrome browser for test...')
     elif browser_name == 'safari':
         if headless == 'true':
