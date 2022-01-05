@@ -1,0 +1,19 @@
+company: Oxagile
+employed: true
+hobbies:
+  1: Sport
+  2: Music
+  3: Self-education
+  4: Healthy lifestyle
+job: Testser
+languages:
+  foreign: English
+  native: Russian
+  program_lang: Python
+name: Max Kazliakouski
+skills:
+- Manual testing
+- API
+- Bug report
+- Sniffers
+work_sphere: IT
