@@ -1,16 +1,8 @@
 import sys
 import traceback
-
 import pytest
 import logging
-# import iniconfig
 from selenium import webdriver
-# from selenium.webdriver.common.by import By
-# from webdrivermanager import GeckoDriverManager
-# from webdrivermanager import ChromeDriverManager
-# from webdrivermanager.chrome import ChromeDriverManager
-# from webdrivermanager.gecko import GeckoDriverManager
-# from selenium.webdriver.chrome.options import Options
 from configparser import ConfigParser
 
 
@@ -60,10 +52,10 @@ def browser(request):
     global browser
     # user_language = request.config.getoption('language')
     if browser_name == 'chrome':
-        # здесь мы задаём в командной строке выбор на headless mode
+        # here we set in commandline choosing for headless mode
         if headless == 'true':
             options = webdriver.ChromeOptions()
-            # добавление опций браузера!!! important
+            # adding browser options!!! important
             prefs = {"profile.default_content_setting_values.notifications": 2}
             options.add_experimental_option("prefs", prefs)
             # options.add_argument("--disable-notifications")
@@ -80,18 +72,20 @@ def browser(request):
                 "user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36")
             options.headless = False
             browser = webdriver.Chrome('/Volumes/Work/TestProject/tools/chromedriver', options=options)
+            browser.maximize_window()
             print('\n\nStart chrome browser for test...')
-    # elif browser_name == 'safari':
-    #     if headless == 'true':
-    #         # options = webdriver.Safari()
-    #         # options.headless = True
-    #         browser = webdriver.Safari()
-    #     else:
-    #         # fp = webdriver.FirefoxProfile(options=options)
-    #         # fp.set_preference("intl.accept_languages", user_language)
-    #         # browser = webdriver.Firefox(executable_path='/Users/maxkazliakouski/Downloads/geckodriver')
-    #         browser = webdriver.Safari()
-    #         print(f'Start {browser_name} browser for test...')
+    elif browser_name == 'safari':
+        if headless == 'true':
+            # options = webdriver.Safari()
+            # options.headless = True
+            browser = webdriver.Safari()
+        else:
+            # fp = webdriver.FirefoxProfile(options=options)
+            # fp.set_preference("intl.accept_languages", user_language)
+            # browser = webdriver.Firefox(executable_path='/Users/maxkazliakouski/Downloads/geckodriver')
+            browser = webdriver.Safari()
+            browser.maximize_window()
+            print(f'Start {browser_name} browser for test...')
     else:
         print('Browser <browser_name> still not implemented')
 

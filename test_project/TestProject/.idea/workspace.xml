@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60b55ecc-05a7-4b12-bfe2-178a313dbab7" name="Changes" comment="" />
+    <list default="true" id="60b55ecc-05a7-4b12-bfe2-178a313dbab7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../SauceDemo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SauceDemo/.idea/SauceDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SauceDemo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SauceDemo/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SauceDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SauceDemo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SauceDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SauceDemo/additional_func.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SauceDemo/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SauceDemo/logfile.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SauceDemo/requirenments.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SauceDemo/src/test/sources/SauceDemoLocators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SauceDemo/test_sauce.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +30,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="21vIHQ8FRnpC5skGdId2RzBEtRe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
