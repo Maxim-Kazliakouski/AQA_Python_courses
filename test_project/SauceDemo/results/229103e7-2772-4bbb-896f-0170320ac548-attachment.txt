@@ -1,0 +1,5 @@
+[32mINFO    [0m conftest:test_sauce.py:65 
+The info about 2 good: 
+The name -> Sauce Labs Bike Light
+The description -> A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+The price -> $9.99

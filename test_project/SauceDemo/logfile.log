@@ -1,6 +1,84 @@
-[2022-01-16 21:21:45,458] -- [INFO][61]--[conftest]: 
+[2022-01-21 21:33:17,371] -- [INFO][65]--[conftest]: 
+
+The info about 1 good: 
+The name -> Sauce Labs Backpack
+The description -> carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+The price -> $29.99
+
+[2022-01-21 21:33:18,278] -- [INFO][65]--[conftest]: 
+
+The info about 2 good: 
+The name -> Sauce Labs Bike Light
+The description -> A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+The price -> $9.99
+
+[2022-01-21 21:33:18,968] -- [INFO][65]--[conftest]: 
+
+The info about 3 good: 
+The name -> Sauce Labs Bolt T-Shirt
+The description -> Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+The price -> $15.99
+
+[2022-01-21 21:33:19,978] -- [INFO][65]--[conftest]: 
+
+The info about 4 good: 
+The name -> Sauce Labs Fleece Jacket
+The description -> It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+The price -> $49.99
+
+[2022-01-21 21:33:20,707] -- [INFO][65]--[conftest]: 
+
+The info about 5 good: 
+The name -> Sauce Labs Onesie
+The description -> Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+The price -> $7.99
+
+[2022-01-21 21:33:21,435] -- [INFO][65]--[conftest]: 
 
 The info about 6 good: 
 The name -> Test.allTheThings() T-Shirt (Red)
 The description -> This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
 The price -> $15.99
+
+[2022-01-21 22:19:29,211] -- [INFO][65]--[conftest]: 
+
+The info about 1 good: 
+The name -> Sauce Labs Backpack
+The description -> carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+The price -> $29.99
+
+[2022-01-21 22:19:30,143] -- [INFO][65]--[conftest]: 
+
+The info about 2 good: 
+The name -> Sauce Labs Bike Light
+The description -> A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+The price -> $9.99
+
+[2022-01-21 22:19:30,910] -- [INFO][65]--[conftest]: 
+
+The info about 3 good: 
+The name -> Sauce Labs Bolt T-Shirt
+The description -> Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+The price -> $15.99
+
+[2022-01-21 22:19:31,601] -- [INFO][65]--[conftest]: 
+
+The info about 4 good: 
+The name -> Sauce Labs Fleece Jacket
+The description -> It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+The price -> $49.99
+
+[2022-01-21 22:19:32,343] -- [INFO][65]--[conftest]: 
+
+The info about 5 good: 
+The name -> Sauce Labs Onesie
+The description -> Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+The price -> $7.99
+
+[2022-01-21 22:19:33,054] -- [INFO][65]--[conftest]: 
+
+The info about 6 good: 
+The name -> Test.allTheThings() T-Shirt (Red)
+The description -> This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+The price -> $15.99
+

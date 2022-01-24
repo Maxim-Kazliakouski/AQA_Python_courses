@@ -14,7 +14,7 @@ from selenium import webdriver
 from configparser import ConfigParser
 
 
-@pytest.fixture(autouse=True)
+@pytest.fixture(scope='session')
 def printing_name_case():
     print('\nStarting new positive case...')
     yield

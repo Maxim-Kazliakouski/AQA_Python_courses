@@ -11,7 +11,7 @@ def try_except_element_is_clickable(browser, logs, locator_for_click):
     except(TimeoutException, NoSuchElementException, InvalidSelectorException):
         logs.error(traceback.format_exc())
         logs.exception('ERROR ! THE AWAITING TIME IS END')
-        raise TimeoutException('The time is end, there is no such element like password...')
+        raise TimeoutException(f'The time is end, there is no such element with following {" ".join(locator_for_click)} ...')
 
 
 def try_except_presence_of_element(browser, logs, locator):
@@ -21,7 +21,4 @@ def try_except_presence_of_element(browser, logs, locator):
     except(TimeoutException, NoSuchElementException, InvalidSelectorException):
         logs.error(traceback.format_exc())
         logs.exception('ERROR ! THE AWAITING TIME IS END')
-        raise TimeoutException('The time is end, there is no such element like login credentials...')
-
-
-
+        raise TimeoutException(f'The time is end, there is no such element with following {" ".join(locator)} ...')

@@ -34,7 +34,7 @@ class locators:
     # locators for page with goods:
 
     ALL_GOODS = By.XPATH, '//*[@class="inventory_item"]'
-    number_items = ['6']
+    number_items = ['1', '2', '3', '4', '5', '6']
     ITEM_NAME = By.XPATH, f'//*[@id="item_{number_items}_title_link"]/div'
     ITEM_DESCRIPTION = By.XPATH, f'//*[@id="inventory_container"]/div/div[{number_items}]/div[2]/div[1]/div'
     ITEM_PRICE = By.XPATH, f'//*[@id="inventory_container"]/div/div[{number_items}]/div[2]/div[2]/div'
