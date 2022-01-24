@@ -24,52 +24,56 @@ class Test_positive:
         (School('Nick', 'Balen', 1, '2nd student').adding_students_into_the_group(1, '2nd student'))
         assert list(OrderedDict.fromkeys(home_work_part_9_classes.sorting_students_by_the_marks_and_groups(5, 6))) \
                == Test_data.DATA_FOR_SORTING_STUDENTS, 'Error, sorting does not work'
+        home_work_part_9_classes.list_of_students.clear()
 
     @pytest.mark.parametrize('firstname', data_school.Test_data.FIRSTNAMES_SET)
     def test_firstname(self, firstname):
-        try:
-            School(firstname, 'Ivanov', 0, '1st student').adding_students_into_the_group(0, '1st student')
-        except:
-            raise AssertionError('The first name of student is missed')
+        student1 = School(firstname, 'Ivanov', 0, '1st student')
+        adding_1_student = student1.adding_students_into_the_group(0, '1st student')
+        assert adding_1_student == Test_data.CHECKING_FOR_1ST_STUDENT, 'The firstname does not appear!'
+        home_work_part_9_classes.list_of_students.clear()
 
     @pytest.mark.parametrize('lastname', data_school.Test_data.LASTNAMES_SET)
     def test_lastname(self, lastname):
-        try:
-            School('Max', lastname, 1, '2nd student').adding_students_into_the_group(1, '2nd student')
-        except:
-            raise AssertionError('The lastname of student is missed')
+        student2 = School(lastname, 'Ivanov', 0, '1st student')
+        adding_2_student = student2.adding_students_into_the_group(0, '1st student')
+        assert adding_2_student == Test_data.CHECKING_FOR_2ND_STUDENT, 'The lastname does not appear!'
+        home_work_part_9_classes.list_of_students.clear()
 
     @pytest.mark.parametrize('firstname,lastname,students,group', data_school.Test_data.STUDENTS_GRADES)
     def test_grades(self, firstname, lastname, students, group):
-        try:
-            School(firstname, lastname, group, students).adding_students_into_the_group(group, students)
-        except:
-            raise AssertionError('There is no student with such marks')
+        mark_1st_student = School(firstname, lastname, group, students).adding_students_into_the_group(group, students)
+        slovar = mark_1st_student[0]
+        marks = []
+        for i, k in slovar.items():
+            for j, l in k.items():
+                marks.append(l)
+        assert marks == Test_data.CHECKING_GRADES_FOR_1ST_STUDENT, 'There is no such marks!'
 
 
 @pytest.mark.negative
 class Test_negative:
     def test_group(self):
         try:
-            School('Max', 'Kazliakouski', 10, '1st student').adding_students_into_the_group(10, '1st student')
+            student_in_first_group = School('Max', 'Kazliakouski', 10, '1st student').adding_students_into_the_group(10,
+                                                                                                                     '1st student')
         except:
-            raise AssertionError('There is no such group')
+            student_in_first_group = 'There are no such group'
+        assert student_in_first_group == 'There are no such group', 'Student was added into the group'
 
     @pytest.mark.skip
     def test_firstname(self):
         try:
-            School('Kazliakouski', 0, '1st student').adding_students_into_the_group(0, '1st student')
+            without_firstname = School('Kazliakouski', 0, '1st student').adding_students_into_the_group(0,
+                                                                                                        '1st student')
         except:
-            raise AssertionError('The first name of student is missed')
+            without_firstname = 'The student has no firstname'
+
+        assert without_firstname == 'The student has no firstname', 'The student has all info about last and first name'
 
     def test_lastname(self):
         try:
-            School('Max', 0, '1st student').adding_students_into_the_group(10, '1st student')
+            without_lastname = School('Max', 0, '1st student').adding_students_into_the_group(0, '1st student')
         except:
-            raise AssertionError('The lastname of student is missed')
-
-    def test_grades(self):
-        try:
-            School('Max', 'Kazliakouski', 0, '10th student').adding_students_into_the_group(0, '1th student')
-        except:
-            raise AssertionError('There is no student with such marks')
+            without_lastname = 'The student has no lastname'
+        assert without_lastname == 'The student has no lastname', 'The student has all info about last and first name'

@@ -1,0 +1,5 @@
+[32mINFO    [0m conftest:test_sauce.py:65 
+The info about 3 good: 
+The name -> Sauce Labs Bolt T-Shirt
+The description -> Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+The price -> $15.99

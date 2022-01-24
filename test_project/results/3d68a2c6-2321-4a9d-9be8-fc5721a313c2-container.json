@@ -1,0 +1,1 @@
+{"uuid": "bed72159-f114-4e64-b19f-0f0571d1b3f4", "children": ["6c9133b5-dc67-4399-a4d6-21c61e894f12"], "befores": [{"name": "printing_name_case", "status": "passed", "start": 1642703013971, "stop": 1642703013971}], "afters": [{"name": "printing_name_case::0", "status": "passed", "start": 1642703014129, "stop": 1642703014129}], "start": 1642703013971, "stop": 1642703014129}

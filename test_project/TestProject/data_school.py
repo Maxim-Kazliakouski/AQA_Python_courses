@@ -5,12 +5,16 @@ class Test_data:
         'Group: 0': {'Max Kazliakouski': {'Math': 4, 'Language': 6, 'Physics': 9, 'Fiz': 10, 'IT': 7}}}]
     INCORRECT_DATA_FOR_ADD_1ST_STUDENT = [{
         'Group: 0': {'Max Kazliakouski': {'Math': 4, 'Language': 6, 'Physics': 9, 'Fiz': 10, 'IT': 7}}}]
-    FIRSTNAMES_SET = ['Max', 'Alex', 'Conor']
-    LASTNAMES_SET = ['Ivanov', 'McDavid', 'Backstrom']
+    FIRSTNAMES_SET = ['Max']
+    CHECKING_FOR_1ST_STUDENT = [{'Group: 0': {'Max Ivanov': {'Math': 4, 'Language': 6, 'Physics': 9, 'Fiz': 10, 'IT': 7}}}]
+    CHECKING_FOR_2ND_STUDENT = [{'Group: 0': {'McDavid Ivanov': {'Math': 4, 'Language': 6, 'Physics': 9, 'Fiz': 10, 'IT': 7}}}]
+    CHECKING_GRADES_FOR_1ST_STUDENT = [{'Math': 4, 'Language': 6, 'Physics': 9, 'Fiz': 10, 'IT': 7}]
+    # STUDENT_FOR_1ST_GROUP =
+
+
+    LASTNAMES_SET = ['McDavid']
     STUDENTS_GRADES = [
         ('Max', 'Kazliakouski', '1st student', 0),  # 1st test dara
-        ('David', 'Macmillan', '2nd student', 1),  # 2nd test data
-        ('Oscar', 'Balen', '3rd student', 2)  # 3rd test data
     ]
 
     # # for negative cases:

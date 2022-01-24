@@ -1,0 +1,5 @@
+[32mINFO    [0m conftest:test_sauce.py:65 
+The info about 1 good: 
+The name -> Sauce Labs Backpack
+The description -> carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+The price -> $29.99

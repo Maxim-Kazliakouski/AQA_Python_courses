@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60b55ecc-05a7-4b12-bfe2-178a313dbab7" name="Changes" comment="" />
+    <list default="true" id="60b55ecc-05a7-4b12-bfe2-178a313dbab7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Home_works/.idea/Home_works.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../New_calc/.idea/New_calc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo/additional_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SauceDemo/additional_func.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SauceDemo/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo/logfile.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SauceDemo/logfile.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo/src/test/sources/SauceDemoLocators.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SauceDemo/src/test/sources/SauceDemoLocators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo/test_sauce.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SauceDemo/tests/test_sauce.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_for_school_pytest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_for_school_pytest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_school.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_school.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,14 +27,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="21vIHQ8FRnpC5skGdId2RzBEtRe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -32,7 +51,28 @@
       <recent name="$PROJECT_DIR$/culc" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.home_work_part_9_classes">
+  <component name="RunManager" selected="Python.123">
+    <configuration name="123" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TestProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/123.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="home_work_part_9_classes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,6 +152,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.123" />
         <item itemvalue="Python.home_work_part_9_classes" />
         <item itemvalue="Python tests.Python tests for test_user.TestSomething" />
         <item itemvalue="Python.text_fixture1" />
@@ -128,6 +169,9 @@
       <updated>1638815046353</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
