@@ -1,5 +1,4 @@
 appdirs==1.4.4
-python3.9
 async-generator==1.10
 attrs==21.2.0
 beautifulsoup4==4.10.0
