@@ -1,0 +1,5 @@
+[32mINFO    [0m conftest:test_sauce.py:65 
+The info about 5 good: 
+The name -> Sauce Labs Onesie
+The description -> Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+The price -> $7.99

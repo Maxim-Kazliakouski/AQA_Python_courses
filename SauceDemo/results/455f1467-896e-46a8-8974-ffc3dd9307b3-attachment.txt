@@ -1,0 +1,5 @@
+[32mINFO    [0m conftest:test_sauce.py:65 
+The info about 6 good: 
+The name -> Test.allTheThings() T-Shirt (Red)
+The description -> This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+The price -> $15.99
