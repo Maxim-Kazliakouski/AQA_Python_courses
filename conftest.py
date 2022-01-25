@@ -129,7 +129,7 @@ def browser(request):
 #     report = outcome.get_result()
 #     extra = getattr(report, 'extra', [])
 #     if report.when == 'call' or report.when == "setup":
-#         # указываем URL на котором производилось тестирование
+#         # note the url where we are testing
 #         extra.append(pytest_html.extras.url("http://www.example.com/"))
 #         xfail = hasattr(report, 'wasxfail')
 #         if (report.skipped and xfail) or (report.failed and not xfail):
