@@ -59,7 +59,7 @@ def browser(request):
     # opt.add_argument("start-maximized")
     # opt.add_argument("--disable-extensions")
     # opt.add_experimental_option("prefs", {"profile.default_content_setting_values.notifications": 2})
-    print(f'Starting browser {browser_name}...')
+    print('Starting browser {browser_name}...')
     global browser
     # user_language = request.config.getoption('language')
     if browser_name == 'chrome':
@@ -100,7 +100,7 @@ def browser(request):
             # browser = webdriver.Firefox(executable_path='/Users/maxkazliakouski/Downloads/geckodriver')
             browser = webdriver.Safari()
             browser.maximize_window()
-            print(f'Start {browser_name} browser for test...')
+            print('Start {browser_name} browser for test...')
     else:
         print('Browser <browser_name> still not implemented')
 
