@@ -105,7 +105,7 @@ def browser(request):
         print('Browser <browser_name> still not implemented')
 
     yield browser
-    print(f'\nQuit browser {browser_name}...')
+    print('\nQuit browser {browser_name}...')
     # browser quit don't fit for safari, get the error about refuse connection
     browser.quit()
 
