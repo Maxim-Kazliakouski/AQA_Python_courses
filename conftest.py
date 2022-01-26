@@ -51,7 +51,7 @@ def pytest_addoption(parser):
 def browser(request):
     print('\nClearing results folder...')
     time.sleep(2)
-    os.system("rm -rf results/*")
+#     os.system("rm -rf results/*")
     browser_name = request.config.getoption('browser.name')
     headless = request.config.getoption('headmode')
     # opt = Options()
