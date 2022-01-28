@@ -9,7 +9,7 @@ import subprocess
 
 
 class Test_for_dynamic_controls:
-    def test_appearing_text_after_clicking_on_remove_button(self, printing_name_case, browser, logs):
+    def test_appearing_text_after_clicking_on_remove_button(self, browser, logs):
         # finding text "it's gone"
         """
         This case checks appearing text after clicking on remove button
